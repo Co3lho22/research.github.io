@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Research — co3lho22</title>
-  <meta name="description" content="Security research, PhD work, and vulnerability research by Diogo Coelho.">
+  <meta name="description" content="PhD research, academic work, and personal security projects by Diogo Coelho (co3lho22).">
 
   <link rel="icon" href="assets/favicon.ico">
   <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
@@ -33,15 +33,66 @@
     <header class="hero">
       <h1>Research</h1>
       <p class="alias">co3lho22</p>
-      <p class="tagline">Security research &middot; Vulnerability hunting &middot; Porto, Portugal</p>
+      <p class="tagline">PhD &middot; Security projects &middot; Porto, Portugal</p>
     </header>
 
     <main>
 
-      <section id="phd">
-        <h2>PhD</h2>
-        <!-- Fill in once PhD starts: topic, institution, supervisor, year -->
-        <p class="muted">Upcoming. Details will be added once the PhD begins.</p>
+      <section id="academic">
+        <h2>Academic</h2>
+        <div class="project-list">
+
+          <div class="project-item">
+            <div class="project-item-header">
+              <strong>PhD — Hardware-Rooted Identity and Decentralised Authentication for Autonomous Robotic Organisations</strong>
+              <span class="status status-ongoing">ongoing</span>
+            </div>
+            <p>Securing unmanned systems operating in adversarial environments without centralized infrastructure. Focus on hardware attack vectors, embedded security primitives, and decentralized trust in maritime autonomous platforms.</p>
+            <div class="tags-inline">
+              <span class="tag">Universidade do Porto</span>
+              <span class="tag">INEGI</span>
+              <span class="tag">LSTS.FEUP</span>
+            </div>
+          </div>
+
+          <a href="projects/msc-thesis.html" class="project-item">
+            <div class="project-item-header">
+              <strong>Master's Thesis</strong>
+              <span class="status status-done">concluded</span>
+            </div>
+            <p>A framework to help security teams detect and fine-tune their controls against data exfiltration.</p>
+            <div class="tags-inline">
+              <span class="tag">INESC TEC</span>
+              <span class="tag">CSIRT U.Porto</span>
+              <span class="tag">Networking Team U.Porto</span>
+              <span class="tag">detection engineering</span>
+            </div>
+          </a>
+
+        </div>
+      </section>
+
+      <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-list">
+
+          <a href="projects/umv-attack-sim.html" class="project-item">
+            <div class="project-item-header">
+              <strong>UMV Attack Simulation Tool</strong>
+              <span class="status status-ongoing">ongoing</span>
+            </div>
+            <p>Hardware device and accompanying firmware to simulate realistic attack scenarios against unmanned maritime vehicle networks — so companies can test their defences before deploying in the field.</p>
+            <div class="tags-inline">
+              <span class="tag">hardware</span>
+              <span class="tag">embedded</span>
+              <span class="tag">UMV</span>
+              <span class="tag">red-team</span>
+            </div>
+          </a>
+
+          <!-- Copy the block above to add a new project -->
+
+        </div>
       </section>
 
       <section id="vulns">
@@ -54,27 +105,23 @@
           </a>
         </div>
         -->
-        <p class="muted">Nothing disclosed yet. Actively hunting.</p>
-      </section>
-
-      <section id="projects">
-        <h2>Projects</h2>
         <div class="project-list">
 
-          <a href="projects/custom-fuzzer.html" class="project-item">
+          <a href="projects/ip-camera.html" class="project-item">
             <div class="project-item-header">
-              <strong>Coverage-Guided Fuzzer</strong>
-              <span class="status status-ongoing">ongoing</span>
+              <strong>Breaking an IP Camera — First Attempt</strong>
+              <span class="status status-soon">coming soon</span>
             </div>
-            <p>Building a coverage-guided fuzzer from scratch to understand fuzzing internals and find vulnerabilities in binary targets.</p>
+            <p>First time going after an embedded device — picking apart an IP camera to understand its attack surface. Firmware extraction, protocol analysis, and whatever else it takes.</p>
             <div class="tags-inline">
-              <span class="tag">fuzzing</span>
-              <span class="tag">binary-analysis</span>
-              <span class="tag">c</span>
+              <span class="tag">embedded</span>
+              <span class="tag">firmware</span>
+              <span class="tag">hardware-hacking</span>
+              <span class="tag">IoT</span>
             </div>
           </a>
 
-          <!-- Copy the block above to add a new project -->
+          <!-- Copy the block above to add a new vuln research entry -->
 
         </div>
       </section>
